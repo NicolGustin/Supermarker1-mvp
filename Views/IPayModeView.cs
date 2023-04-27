@@ -8,13 +8,47 @@ namespace Supermarket_mvp.Views
 {
     internal interface IPayModeView
     {
-        string PayModeId { get; set; }
-        string PayModeName { get; set; }
-        string PayModeObservation { get; set; }
+        string PayModeId 
+        { 
+            get { return TxtPayModeId.Text; }
+            set { TxtPayModeId.Text = value; }
+        }
 
-        string SearchValue { get; set; }
-        bool IsSuccessful { get; set; }
-        string Message { get; set; }
+        string PayModeName 
+        { 
+            get { return TxtPayModeName.Text; }
+            set { TxtPayModeName.Text = value; }
+        }
+
+        string PayModeObservation 
+        { 
+            get { return TxtPayModeObservation.Text;}
+            set { TxtPayModeObservation.Text = value; }
+        }
+
+        public string SearchValue 
+        { 
+            get { return TxtSearch.Text; }
+            set { TxtSearch.Text = value; }
+        }
+        
+        public bool IsEdit 
+        { 
+            get { return isEdit; }
+            set { isEdit = value; }
+        }
+
+        public bool IsSuccessful
+        { 
+            get { return isSuccessful; }
+            set { isSuccessful = value; }
+        }
+
+        string Message
+        { 
+            get { return message; }
+            set { message = value; }
+        }
 
         event EventHandler SearchEvent;
         event EventHandler AddNewEvent;
