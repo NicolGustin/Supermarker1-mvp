@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Models",
+    "\\Presenters",
     "\\Views"
   ],
-  "SelectedNode": "\\Supermarket-mvp.sln",
+  "SelectedNode": "\\Views\\IPayModeView.cs",
   "PreviewInSolutionExplorer": false
 }

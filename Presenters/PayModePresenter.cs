@@ -50,7 +50,7 @@ namespace Supermarker_mvp.Presenters
            bool emptyValue = string.IsNullOrWhiteSpace(this.view.SearchValue);
            if (emptyValue == falce)
            {
-            payModeList = repository.GetAll();
+              payModeList = repository.GetAll();
            }
            payModeBindingSource.DataSource = payModeList;
         }

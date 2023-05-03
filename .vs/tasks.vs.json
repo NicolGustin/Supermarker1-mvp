@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarea-Supermarket-mvp",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarea-Supermarket-mvp",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
